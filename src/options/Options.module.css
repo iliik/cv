@@ -1,0 +1,22 @@
+.optionsBlock{
+    height: 30vh;
+    background-color: teal;
+
+}
+.optionsContainer {
+
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #ff2600;
+}
+
+.button {
+  background-color: #03b7f8;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

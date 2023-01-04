@@ -3,7 +3,10 @@ import './App.css';
 import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
-import Skill from "./skills/skill/Skill";
+import MyWorks from "./my-works/MyWorks";
+import Options from "./options/Options";
+import Contacts from "./contacts/Contacts";
+import Footer from "./footer/Footer";
 
 function App() {
     return (
@@ -11,7 +14,10 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-
+            <MyWorks/>
+            <Options/>
+            <Contacts/>
+            <Footer/>
 
         </div>
     );

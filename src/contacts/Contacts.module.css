@@ -1,0 +1,50 @@
+.contactsBlock {
+    background-color: #04efef;
+    height: 60vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.optionsContainer {
+
+
+}
+
+.input {
+    background-color: #f6d9cb;
+    width: 98%;
+    height: 10%;
+}
+
+.textarea {
+    height: 40%;
+    width: 98%;
+}
+
+.button {
+    background-color: rgba(0, 255, 33, 0.63);
+    border: 1px solid;
+
+}
+
+.contact {
+    background-color: #9503d5;
+
+}
+
+.inputTextBlock {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #045e7a;
+}

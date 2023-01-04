@@ -1,0 +1,28 @@
+.footerBlock {
+    background-color: #e75c83;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.iconBlock{
+
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: #045e7a;
+
+}
+
+.name{
+    background-color: #fac903;
+}
+
+.date{
+   background-color: gold;
+}
+
+
