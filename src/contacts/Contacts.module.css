@@ -1,13 +1,12 @@
 .contactsBlock {
     background-color: #04efef;
-    height: 60vh;
+    min-height: 60vh;
     border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: stretch;
-    align-items: center;
     flex-wrap: wrap;
+
 }
 
 .optionsContainer {
@@ -15,31 +14,21 @@
 
 }
 
-.input {
-    background-color: #f6d9cb;
-    width: 98%;
-    height: 10%;
-}
-
-.textarea {
-    height: 40%;
-    width: 98%;
-}
 
 .button {
     background-color: rgba(0, 255, 33, 0.63);
     border: 1px solid;
-
+    flex-wrap: wrap;
 }
 
 .contact {
     background-color: #9503d5;
-
+    flex-wrap: wrap;
 }
 
 .inputTextBlock {
-    height: 50%;
-    width: 50%;
+
+    min-height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,4 +36,17 @@
     align-items: flex-start;
     flex-wrap: wrap;
     background-color: #045e7a;
+    border: 1px solid;
+}
+.input {
+     background-color: #f6d9cb;
+     flex-wrap: wrap;
+     width: 500px;
+    height: 30px;
+ }
+
+.textarea {
+    width: 500px;
+    height: 110px;
+
 }

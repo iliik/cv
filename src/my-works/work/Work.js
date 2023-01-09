@@ -5,7 +5,9 @@ function Work(props) {
     return (
         <div className={style.work}>
             <div>{props.title}</div>
-            <h2 className={style.video}>{props.discription}</h2>
+            <div className={style.videocontainer}>
+                <button href className={style.video}>{props.discription}</button>
+            </div>
             <div className={style.project}>
                 <span className={style.projectName}>Имя проекта</span>
                 <span className={style.description}>Краткое Описание </span>

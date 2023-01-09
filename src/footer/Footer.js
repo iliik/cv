@@ -8,10 +8,13 @@ function Footer() {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerBlock}`}>
                 <h2 className={style.name}>Илья Кошелевич</h2>
-                <span className={style.icon}></span>
-                <span className={style.icon}></span>
-                <span className={style.icon}></span>
-                <h2 className={style.date}> @ 2023 Все права защищены</h2>
+                <div className={style.iconBlock}>
+                    <div className={style.icon}></div>
+                    <div className={style.icon}></div>
+                    <div className={style.icon}></div>
+                    <div className={style.icon}></div>
+                </div>
+                <h2 className={style.date}> @2023 Все права защищены</h2>
             </div>
 
         </div>
