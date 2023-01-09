@@ -6,15 +6,15 @@ import styleContainer from "../common/styles/Container.module.css";
 function Contacts() {
     return (
         <div className={style.contactsBlock}>
-            <form className={`${styleContainer.container} ${style.contactsBlock}`}>
+            <div className={`${styleContainer.container} ${style.contactsBlock}`}>
                 <h3 className={style.contact}>Контакты</h3>
-                <div className={style.inputTextBlock}>
+                <form className={style.inputTextBlock}>
                     <input className={style.input}/>
                     <input className={style.input}/>
                     <textarea className={style.textarea}></textarea>
-                </div>
+                </form>
                 <button className={style.button}>Отправить</button>
-            </form>
+            </div>
         </div>
     );
 }

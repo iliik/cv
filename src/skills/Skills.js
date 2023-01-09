@@ -11,7 +11,7 @@ function Skills() {
                 <div className={style.skills}>
                     <Skill title={'JS'} description={'TEXT'}/>
                     <Skill title={'Rect'} description={'TEXT '}/>
-                    <Skill title={'CSS'} description={'TEXT'}/>
+                    <Skill title={'Rect'} description={'TEXT '}/>
                 </div>
             </div>
         </div>
