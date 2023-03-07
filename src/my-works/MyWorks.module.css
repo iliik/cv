@@ -1,25 +1,24 @@
 .workBlock {
-
     min-height: 100vh;
-   background-color: #fac903;
+    background-color: #fac903;
     flex-wrap: wrap;
 }
 
-.workContainer{
+.workContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
 
 
-.titleWorks{
+.titleWorks {
     background-color: #05bef6;
 }
 
-.works{
+.works {
     width: 100%;
     border: 1px solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
