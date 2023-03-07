@@ -12,6 +12,10 @@
 .titleWorks {
     background-color: #05bef6;
     font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fefeff;
+    text-transform: capitalize;
 }
 
 .works {
