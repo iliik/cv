@@ -9,8 +9,8 @@ function Contacts() {
             <div className={`${styleContainer.container} ${style.contactsBlock}`}>
                 <h3 className={style.contact}>Контакты</h3>
                 <form className={style.inputTextBlock}>
-                    <input className={style.input}/>
-                    <input className={style.input}/>
+                    <input className={style.input} type={'text'}/>
+                    <input className={style.input} type={'text'}/>
                     <textarea className={style.textarea}></textarea>
                 </form>
                 <button className={style.button}>Отправить</button>
