@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './Projects.module.css'
+import style from './MyWorks.module.css'
 import styleContainer from "../common/styles/Container.module.css";
 import Work from "./work/Work";
 
 
-function Projects() {
+function Title() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
@@ -20,4 +20,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default Title;

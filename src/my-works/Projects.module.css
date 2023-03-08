@@ -1,0 +1,48 @@
+.projectsBlock {
+    min-height: 100vh;
+    background-color: #009f01;
+    flex-wrap: wrap;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fefeff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.title h2 {
+    margin: 0;
+}
+
+
+.title::before {
+    content: "";
+    position: absolute;
+    background: #fac903;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.projects {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
