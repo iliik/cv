@@ -8,14 +8,14 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerBlock}`}>
-           <Title text={'Ilya Koshelevich'}/>
+                <Title text={'Ilya Koshelevich'}/>
                 <div className={style.iconBlock}>
                     <div className={style.icon}></div>
                     <div className={style.icon}></div>
                     <div className={style.icon}></div>
                     <div className={style.icon}></div>
                 </div>
-                <h2 className={style.date}> @2023 Все права защищены</h2>
+                <h2 className={style.date}> @2023 All rights reserved</h2>
             </div>
 
         </div>
