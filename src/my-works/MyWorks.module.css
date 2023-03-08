@@ -11,23 +11,30 @@
 
 .titleWorks {
     font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 30px;
+    margin: 0;
     font-weight: 300;
     color: #fefeff;
     text-transform: capitalize;
-    margin: 0;
+
+}
+
+.titleWorks, h2 {
+    margin-bottom: 30px;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
 }
 
-.title::before {
+
+.titleWorks::before {
+
     content: "";
     position: absolute;
     background: #fac903;
     width: 55px;
     height: 2px;
+    bottom: -30px;
 
 }
 
