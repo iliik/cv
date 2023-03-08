@@ -19,6 +19,16 @@
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 5px;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background: #fac903;
+    width: 55px;
+    height: 2px;
+
 }
 
 .works {
