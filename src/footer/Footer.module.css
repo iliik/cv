@@ -33,10 +33,12 @@
     font-weight: 300;
     color: #fefeff;
     text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
 }
 
 .date{
-
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 30px;
     font-weight: 300;

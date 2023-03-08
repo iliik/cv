@@ -30,6 +30,9 @@
     color: #fefeff;
     text-transform: capitalize;
     margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
 }
 
 .inputTextBlock {
