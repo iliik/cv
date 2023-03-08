@@ -4,24 +4,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .optionsContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-.title {
+.h3 {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    margin-bottom: 30px;
     font-weight: 300;
     color: #fefeff;
     text-transform: capitalize;
-
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 5px;
@@ -29,6 +25,5 @@
 
 .button {
     background-color: #03b7f8;
-    border: 1px solid;
     flex-wrap: wrap;
 }
