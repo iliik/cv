@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './Options.module.css'
 import styleContainer from "../common/styles/Container.module.css";
+import Title from "../common/components/title/Title";
 
 
 function Options() {
     return (
         <div className={style.optionsBlock}>
             <div className={`${styleContainer.container} ${style.optionsContainer}`}>
-                <h3 className={style.h3}>Consider remote work options</h3>
+                <Title text={'Consider remote work options'}/>
                 <button className={style.button}>Hire me</button>
             </div>
         </div>
