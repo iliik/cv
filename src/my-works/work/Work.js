@@ -4,13 +4,13 @@ import style from './Work.module.css'
 function Work(props) {
     return (
         <div className={style.work}>
-            <div>{props.title}</div>
+            <div></div>
             <div className={style.videocontainer}>
-                <button href className={style.video}>{props.discription}</button>
+                <button href className={style.video}>Watch</button>
             </div>
             <div className={style.project}>
-                <span className={style.projectName}>Имя проекта</span>
-                <span className={style.description}>Краткое Описание </span>
+                <span className={style.projectName}>{props.title}</span>
+                <span className={style.description}>{props.discription}</span>
             </div>
         </div>
     );
