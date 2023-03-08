@@ -6,12 +6,12 @@
 
 .text {
     width: 300px;
-
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 30px;
     font-weight: 300;
     color: #fefeff;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .photo {
