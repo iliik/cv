@@ -13,10 +13,10 @@
     width: 100%;
     border: 1px solid;
     display: flex;
-
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    align-items: flex-start;
 }
 @media  screen  and (max-width: 1129px) {
     .projects {
