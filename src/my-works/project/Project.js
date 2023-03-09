@@ -7,7 +7,7 @@ function Project(props) {
             <div className={style.image}>
                 <a className={style.video}>Watch</a>
             </div>
-            <h3 className={style.title}>{props.title}</h3>
+            <h3 className={style.projectTitle}>{props.title}</h3>
             <span className={style.description}>{props.discription}</span>
         </div>
     );

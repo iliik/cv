@@ -1,5 +1,5 @@
 .project {
-    background-color: #f1f5f5;
+    background-color: #00bb35;
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -30,10 +30,17 @@
     background-color: #045e7a;
     padding: 10px 20px;
 }
-.title{
 
+.projectTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    color: #fefeff;
 }
 
-.description{
-
+.description {
+    font-family: 'Poppins', sans-serif;
+    color: #fefeff;
 }
