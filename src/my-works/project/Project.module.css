@@ -43,4 +43,10 @@
 .description {
     font-family: 'Poppins', sans-serif;
     color: #fefeff;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 14px;
+}
+.projectInfo{
+    padding: 25px 20px;
 }
