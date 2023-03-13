@@ -1,7 +1,7 @@
 @import "../../common/styles/sass/variabls";
 
 .project {
-  background-color: $bgColor;
+  background-color: $bgSecondColor;
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -28,10 +28,11 @@
     }
 
     .video {
-      background-color: #fc1d1d;
+      background-color:$primaryColor;
       padding: 10px 20px;
       position: relative;
       z-index: 1;
+      color:$textColor ;
     }
   }
 
@@ -56,18 +57,6 @@
     }
 
   }
-}
-
-
-.image::before {
-  position: absolute;
-  content: '';
-  background-color: black;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.5;
 }
 
 
