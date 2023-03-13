@@ -1,0 +1,23 @@
+@import ".././common/styles/sass/variabls";
+.optionsBlock {
+    height: 30vh;
+    background-color:$bgSecondColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .optionsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        display: flex;
+        background-color: #03b7f8;
+        flex-wrap: wrap;
+        color: $textColor;
+    }
+}
+
