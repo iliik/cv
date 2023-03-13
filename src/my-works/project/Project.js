@@ -11,7 +11,6 @@ function Project(props) {
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <span className={style.description}>{props.discription}</span>
             </div>
-
         </div>
     );
 }

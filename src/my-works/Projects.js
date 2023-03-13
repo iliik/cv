@@ -4,11 +4,11 @@ import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project";
 import Title from "../common/components/title/Title";
 import todolistImage from "./../assets/image/PQjXipuxaEc.jpg"
-import socalImage from "./../assets/image/Social-Networking-App-in-React.png"
+import socialImage from "./../assets/image/Social-Networking-App-in-React.png"
 
 function Projects() {
     const social = {
-        backgroundImage: `url(${socalImage})`,
+        backgroundImage: `url(${socialImage})`,
     }
     const todolist = {
         backgroundImage: `url(${todolistImage})`,
