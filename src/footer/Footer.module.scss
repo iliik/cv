@@ -1,0 +1,39 @@
+@import ".././common/styles/sass/variabls";
+
+.footerBlock {
+  background-color:$bgColor;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    .iconBlock {
+        width: 50%;
+        border: 1px solid;
+        background-color:$primaryColor;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .icon {
+            margin: 5px;
+            height: 60px;
+            width: 60px;
+            background-color: $bgSecondColor;
+        }
+    }
+    .date {
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 30px;
+        font-weight: 300;
+        color: $textColor;
+        text-transform: capitalize;
+    }
+
+
+}
+
+
+
+
+
