@@ -38,8 +38,9 @@
 
   .button {
     background-color: $primaryColor;
-    border: 1px solid;
+
     flex-wrap: wrap;
+    color:$textColor ;
   }
   .optionsContainer {
     flex-wrap: wrap;
