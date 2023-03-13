@@ -8,6 +8,7 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  border: solid 1px;
 
   .icon {
     height: 60px;
@@ -19,6 +20,7 @@
   .skill, h3 {
     color: $textColor;
   }
+
   .description {
     color: $textColor;
   }
