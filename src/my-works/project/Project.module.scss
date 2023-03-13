@@ -13,6 +13,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 .image::before{
     position: absolute;
@@ -22,11 +23,14 @@
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0.5;
 }
 
 .video {
     background-color: #fc1d1d;
     padding: 10px 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .projectTitle {

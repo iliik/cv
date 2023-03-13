@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css'
+import style from './Projects.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project";
 import Title from "../common/components/title/Title";
@@ -18,8 +18,10 @@ function Projects() {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={'Projects'}/>
                 <div className={style.projects}>
-                    <Project style={social} title={"Social network"} discription={'sed do eiusmod tempor incidiunt ut labox'}/>
-                    <Project style={todolist} title={"Todo list"} discription={'Lorem ipsum dolor sit amet, consectetur'}/>
+                    <Project style={social} title={"Social network"}
+                             discription={'sed do eiusmod tempor incidiunt ut labox'}/>
+                    <Project style={todolist} title={"Todo list"}
+                             discription={'Lorem ipsum dolor sit amet, consectetur'}/>
                 </div>
             </div>
         </div>
