@@ -20,10 +20,11 @@
 
 .image {
     height: 300px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .video {

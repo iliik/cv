@@ -3,15 +3,15 @@ import style from './Projects.module.css'
 import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project";
 import Title from "../common/components/title/Title";
-import socialImage from "./../assets/image/PQjXipuxaEc.jpg"
-import todoImage from "./../assets/image/Social-Networking-App-in-React.png"
+import todolistImage from "./../assets/image/PQjXipuxaEc.jpg"
+import socalImage from "./../assets/image/Social-Networking-App-in-React.png"
 
 function Projects() {
     const social = {
-        backgroundImage: `url(${socialImage })`,
+        backgroundImage: `url(${socalImage})`,
     }
     const todolist = {
-        backgroundImage: `url(${todoImage})`,
+        backgroundImage: `url(${todolistImage})`,
     }
     return (
         <div className={style.projectsBlock}>
