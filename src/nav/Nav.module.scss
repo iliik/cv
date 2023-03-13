@@ -1,0 +1,11 @@
+@import ".././common/styles/sass/variabls";
+.nav {
+    background-color:$primaryColor ;
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    .nav,a{
+        color: $textColor;
+    }
+}
