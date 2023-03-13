@@ -1,5 +1,7 @@
+@import "../../common/styles/sass/variabls";
+
 .project {
-  background-color: #00bb35;
+  background-color: $bgColor;
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -42,12 +44,12 @@
       letter-spacing: 1px;
       margin: 0 0 5px;
       line-height: 1.2;
-      color: #fefeff;
+      color:$textColor;
     }
 
     .description {
       font-family: 'Poppins', sans-serif;
-      color: #fefeff;
+      color:$textColor;
       line-height: 1.8;
       font-weight: 400;
       font-size: 14px;
