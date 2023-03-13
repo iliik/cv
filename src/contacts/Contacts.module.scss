@@ -1,0 +1,58 @@
+@import ".././common/styles/sass/variabls.scss";
+
+.contactsBlock {
+  background-color: $bgColor;
+  min-height: 60vh;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .inputTextBlock {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color:$bgSecondColor;
+    border: 1px solid;
+
+    .input {
+      background-color: $textColor;
+      flex-wrap: wrap;
+      width: 99%;
+      height: 30px;
+    }
+
+    .textarea {
+      width: 99%;
+      height: 110px;
+      flex-wrap: wrap;
+    }
+
+  }
+
+  .button {
+    background-color: $primaryColor;
+    border: 1px solid;
+    flex-wrap: wrap;
+  }
+  .optionsContainer {
+    flex-wrap: wrap;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
