@@ -1,7 +1,7 @@
 @import "../../styles/sass/variabls";
 
 .title {
-  margin: 0 0 30px;
+  margin: 0 0 40px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: $textColor;
@@ -12,8 +12,7 @@
   position: relative;
 
   & h3 {
-    margin: 0px;
-
+    margin: 0 ;
   }
 
   &::before {
@@ -22,7 +21,7 @@
     background: $primaryColor;
     width: 55px;
     height: 2px;
-    bottom: -30px;
+    bottom: -15px;
     left: 50%;
     transform: translate(-50%, 50%);
   }
