@@ -1,4 +1,6 @@
 @import ".././common/styles/sass/variabls.scss";
+@import ".././common/styles/sass/mixins";
+@import ".././common/components/button/Button.module";
 
 .contactsBlock {
   background-color: $bgColor;
@@ -36,11 +38,11 @@
 
   }
 
-  .button {
-    background-color: $bgSecondColor;
-    flex-wrap: wrap;
-    color: $textColor;
-    padding-bottom: inherit;
+  .button[type='submit'] {
+    @extend .btn;
+    align-self: center;
+    background-color: transparent;
+    margin-top: 30px;
   }
 
   .optionsContainer {
