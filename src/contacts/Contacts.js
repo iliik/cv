@@ -12,9 +12,9 @@ function Contacts() {
                 <form className={style.inputTextBlock}>
                     <input className={style.input} type={'text'}/>
                     <input className={style.input} type={'text'}/>
-                    <textarea className={style.textarea}></textarea>
+                    <textarea className={style.textarea}  ></textarea>
                 </form>
-                <button className={style.button}>Отправить</button>
+                <button className={style.button}>SEND MESSAGE</button>
             </div>
         </div>
     );
