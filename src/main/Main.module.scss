@@ -19,6 +19,9 @@
         height: 400px;
         background-color: $primaryColor;
         display: flex;
+        position: relative;
+        background-position: unset;
+        background-repeat: round;
 
     }
 }
