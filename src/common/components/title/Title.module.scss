@@ -11,8 +11,9 @@
   letter-spacing: 5px;
   position: relative;
 
-  .title h2 {
-    margin: 0;
+  & h3 {
+    margin: 0px;
+
   }
 
   &::before {
