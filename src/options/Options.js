@@ -10,7 +10,6 @@ function Options() {
         <div className={style.optionsBlock}>
             <div className={`${styleContainer.container} ${style.optionsContainer}`}>
                 <Title text={'Consider remote work options'}/>
-                {/*<button className={style.button}>Hire me</button>*/}
                 <Button text={'Hire me'}/>
             </div>
         </div>

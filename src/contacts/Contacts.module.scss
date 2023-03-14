@@ -28,7 +28,7 @@
         border: 1px solid $SolidColor;
         box-sizing: border-box;
         @include text(inherit, 12px, 1.5);
-        font-weight: 400;
+        font-weight:  400;
         outline: none;
         color: $SolidColor;
         margin-bottom: 1.2rem;
@@ -59,7 +59,6 @@
         min-height: 160px;
         padding: 15px;
         resize: none;
-
         &:focus {
           border: 1px solid transparent;
           transition: all 0.4s ease-in-out 0s;
