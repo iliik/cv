@@ -1,7 +1,9 @@
 @import "../../styles/sass/variabls";
+@import "../../styles/sass/mixins";
 
 .title {
   margin: 0 0 40px;
+  @include text($TextFontFamily,36px,1.2);
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: $textColor;
