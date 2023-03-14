@@ -18,17 +18,12 @@
     align-items: flex-start;
     flex-wrap: wrap;
 
-
-
-
-    padding: 0 15px;
-    font-size: 12px;
     .input {
       background-color: $bgSecondColor;
       flex-wrap: wrap;
       width: 99%;
       height: 25px;
-      border: 1px solid #4a4a4a;
+      border: 1px solid $SolidColor;
     }
 
     .textarea {
@@ -36,7 +31,7 @@
       height: 110px;
       flex-wrap: wrap;
       background-color: $bgSecondColor;
-      border: 1px solid #4a4a4a;
+      border: 1px solid $SolidColor;
     }
 
   }
@@ -44,8 +39,10 @@
   .button {
     background-color: $bgSecondColor;
     flex-wrap: wrap;
-    color:$textColor ;
+    color: $textColor;
+    padding-bottom: inherit;
   }
+
   .optionsContainer {
     flex-wrap: wrap;
 
