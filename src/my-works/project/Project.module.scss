@@ -17,17 +17,20 @@
     background-repeat: no-repeat;
     position: relative;
 
-    & ::before {
+    &::before {
       position: absolute;
       content: '';
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
+
       opacity: 0.5;
+      background-color: $bgSecondColor;
     }
 
     .video {
+
       background-color: $primaryColor;
       padding: 10px 20px;
       position: relative;
