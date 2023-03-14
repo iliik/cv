@@ -1,11 +1,12 @@
 @import ".././common/styles/sass/variabls";
-.nav {
-    background-color:$primaryColor ;
 
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    .nav,a{
-        color: $textColor;
-    }
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+
+  & a {
+    color: $textColor;
+    text-decoration: none;
+  }
 }
