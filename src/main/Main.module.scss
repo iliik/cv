@@ -4,6 +4,8 @@
 .mainBlock {
 
   background-color: $bgColor;
+  @include text($TitleFontFamily, 50px, 1.2);
+  font-weight: 700;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
 
@@ -11,12 +13,14 @@
     @include container();
     @include flex(row, flex-start, flex-start, nowrap);
 
+    @media (max-width: 767px) {
+      @include flex(column, flex-start, flex-start, nowrap);
+    }
     .greeting {
       @include flex(column, flex-start, flex-start, nowrap);
-
+      margin-right: 180px;
       span {
         font-size: 16px;
-
         &:nth-child(2) {
           @include text($TitleFontFamily, 50px, 1.2);
           font-weight: 700;
@@ -24,7 +28,7 @@
           margin: 10px 0;
 
           span {
-            @include text($TitleFontFamily, 50px, 1.2);
+            @include text($TitleFontFamily, 49px, 1.2);
             font-weight: 700;
             letter-spacing: 5px;
             position: relative;
