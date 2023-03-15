@@ -3,7 +3,7 @@
 
 .mainBlock {
 
-
+  background-color: $bgColor;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
 
@@ -43,33 +43,38 @@
           }
         }
       }
-      h1{
+
+      h1 {
         @include text($TitleFontFamily, 28px, 1.8);
         font-weight: 400;
         margin: 0;
       }
-      @media screen and (max-width: 1143px){
+
+      @media screen and (max-width: 1143px) {
         align-items: center;
       }
     }
-    .photo{
+
+    .photo {
       position: relative;
       z-index: 1;
-      @media screen and (max-width: 1143px){
+      @media screen and (max-width: 1143px) {
         margin-top: 50px;
       }
-      .image{
+
+      .image {
         height: 400px;
         width: 300px;
         @include bgSetting();
         background-image: url("../assets/image/photo_2023-03-14_15-25-55.jpg");
-        background-position: 80% 0 ;
-        @media screen and (max-width: 600px){
+        background-position: 80% 0;
+        @media screen and (max-width: 600px) {
           height: 360px;
           width: 260px;
           transition: .5s;
         }
-        &:before{
+
+        &:before {
           content: '';
           position: absolute;
           height: 110%;

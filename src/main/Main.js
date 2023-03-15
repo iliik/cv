@@ -17,7 +17,7 @@ function Main() {
                     <span>I am  Ilya<span>Kashalevich</span></span>
                     <h1> Frontend Developer.</h1>
                 </div>
-                <div className={style.photo} style={imPhoto}>
+                <div className={style.photo} >
                     <div className={style.image}></div>
                 </div>
             </div>
