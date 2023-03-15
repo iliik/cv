@@ -11,13 +11,15 @@ function Main() {
 
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
-                <div className={style.text}>
+            <div className={style.container}>
+                <div className={style.greeting}>
                     <span>Hi There</span>
-                    <h1>I am Kashalevich Ilya</h1>
-                    <p> Frontend Developer.</p>
+                    <span>I am  Ilya<span>Kashalevich</span></span>
+                    <h1> Frontend Developer.</h1>
                 </div>
-                <div className={style.photo} style={imPhoto}></div>
+                <div className={style.photo} style={imPhoto}>
+                    <div className={style.image}></div>
+                </div>
             </div>
 
         </div>
