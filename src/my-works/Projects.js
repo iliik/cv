@@ -16,7 +16,7 @@ function Projects() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title text={'Projects'}/>
+                <Title  text={'Projects'}/>
                 <div className={style.projects}>
                     <Project style={social} title={"Social network"}
                              discription={'sed do eiusmod tempor incidiunt ut labox'}/>

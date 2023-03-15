@@ -9,7 +9,7 @@ function Project(props) {
                 <Button text={'Watch'}/>
             </div>
             <div className={style.projectInfo}>
-                <h3 className={style.projectTitle}>{props.title}</h3>
+                <h3 className={style.projectTitle} >{props.title}</h3>
                 <span className={style.description}>{props.discription}</span>
             </div>
         </div>

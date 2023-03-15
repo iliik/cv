@@ -9,7 +9,7 @@ function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={'Skills'}/>
+                <Title  text={'Skills'}/>
                 <div className={style.skills}>
                     <Skill title={'JS'} description={'TEXT'}/>
                     <Skill title={'Rect'} description={'TEXT '}/>
