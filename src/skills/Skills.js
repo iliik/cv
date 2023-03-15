@@ -3,10 +3,13 @@ import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
+import Particles from "react-particles-js";
 
 function Skills() {
     return (
+
         <div className={style.skillsBlock}>
+            <Particles/>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={'Skills'}/>
                 <div className={style.skills}>
