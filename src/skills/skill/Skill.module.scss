@@ -9,12 +9,12 @@
   text-align: center;
   flex-wrap: wrap;
   border: solid 1px;
-
+  z-index: 99;
   .icon {
     height: 60px;
     width: 60px;
     background-color: $bgSecondColor;
-
+    z-index: 99;
   }
 
   .skill, h3 {
