@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.87d53974.css",
-    "main.js": "/cv/static/js/main.6651c038.js",
+    "main.css": "/cv/static/css/main.c81171d2.css",
+    "main.js": "/cv/static/js/main.a0c871bf.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
+    "static/media/Capture001.png": "/cv/static/media/Capture001.1d4c8d840aaebd4df268.png",
     "static/media/photo_2023-03-14_15-25-55.jpg": "/cv/static/media/photo_2023-03-14_15-25-55.e4aa843bc9b8966654f9.jpg",
     "static/media/Social-Networking-App-in-React.png": "/cv/static/media/Social-Networking-App-in-React.66ad4223538f09ce032d.png",
+    "static/media/vk-circled.png": "/cv/static/media/vk-circled.b5e0b150e57dec9897bc.png",
     "static/media/PQjXipuxaEc.jpg": "/cv/static/media/PQjXipuxaEc.5e78418cb954d12c78ae.jpg",
+    "static/media/telegram.svg": "/cv/static/media/telegram.17ab82fd3441ab26b4043a7ec067a8b2.svg",
+    "static/media/LinkedIn-Icon-Logo.wine.svg": "/cv/static/media/LinkedIn-Icon-Logo.wine.fd52e68ad59ac76b8bef39e880205ff4.svg",
     "index.html": "/cv/index.html",
-    "main.87d53974.css.map": "/cv/static/css/main.87d53974.css.map",
-    "main.6651c038.js.map": "/cv/static/js/main.6651c038.js.map",
+    "main.c81171d2.css.map": "/cv/static/css/main.c81171d2.css.map",
+    "main.a0c871bf.js.map": "/cv/static/js/main.a0c871bf.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87d53974.css",
-    "static/js/main.6651c038.js"
+    "static/css/main.c81171d2.css",
+    "static/js/main.a0c871bf.js"
   ]
 }
