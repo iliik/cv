@@ -12,9 +12,10 @@ function Options() {
             <div className={`${styleContainer.container} ${style.optionsContainer}`}>
                 <Roll>
                         <Title text={'Consider remote work options'}/>
+                </Roll>
                         <Button text={'Hire me'}/>
 
-                </Roll>
+
             </div>
 
         </div>

@@ -9,15 +9,17 @@ function Contacts() {
         <div className={style.contactsBlock}>
 
             <div className={style.container}>
+
+                <Title text={'Contacts'}/>
                 <Roll>
-                    <Title text={'Contacts'}/>
                     <form className={style.form}>
                         <input className={style.formArea} type='text' placeholder='Name'/>
                         <input className={style.formArea} type='text' placeholder='e-mail'/>
                         <textarea className={style.messageArea} placeholder='Message'/>
                     </form>
-                    <Button type='submit' text={'SEND MESSAGE'}/>
                 </Roll>
+                <Button type='submit' text={'SEND MESSAGE'}/>
+
             </div>
 
         </div>

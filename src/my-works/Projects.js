@@ -16,18 +16,16 @@ function Projects() {
     }
     return (
         <div className={style.projectsBlock}>
-
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Roll>
                     <Title text={'Projects'}/>
-
+                </Roll>
                     <div className={style.projects}>
                         <Project style={social} title={"Social network"}
                                  discription={'sed do eiusmod tempor incidiunt ut labox'}/>
                         <Project style={todolist} title={"Todo list"}
                                  discription={'Lorem ipsum dolor sit amet, consectetur'}/>
                     </div>
-                </Roll>
             </div>
 
         </div>
