@@ -12,9 +12,9 @@ function Footer() {
         <div className={style.footer}>
 
             <div className={style.container}>
-
-                <Title text={'Ilya Kashalevich'}/>
                 <Roll>
+                <Title text={'Ilya Kashalevich'}/>
+
                     <div className={style.socialIcons}>
                         <div className={style.socialIcon}><a href='https://t.me/koshelben'><img src={telegramIcon}
                                                                                                 alt=''/></a></div>
@@ -27,9 +27,9 @@ function Footer() {
                             href='https://www.instagram.com/ilya_koshelben/?igshid=YmMyMTA2M2Y%3D'><img
                             src={instagramIcon} alt=''/></a></div>
                     </div>
-                </Roll>
-                <h2 className={style.date}> @2023 All rights reserved</h2>
 
+                <h2 className={style.date}> @2023 All rights reserved</h2>
+            </Roll>
             </div>
 
         </div>
