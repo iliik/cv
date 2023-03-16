@@ -7,8 +7,9 @@ function Main() {
 
     return (
         <div className={style.mainBlock}>
-            <Roll>
+
                 <div className={style.container}>
+                    <Roll>
                     <div className={style.greeting}>
                         <span>Hi There</span>
                         <span>I am  Ilya<span>Kashalevich</span></span>
@@ -17,8 +18,9 @@ function Main() {
                     <div className={style.photo}>
                         <div className={style.image}></div>
                     </div>
+                    </Roll>
                 </div>
-            </Roll>
+
         </div>
 
     );
