@@ -2,12 +2,13 @@
 @import "../../common/styles/sass/mixins";
 
 .project {
-  background-color: $bgSecondColor;
+  @media (max-width: 460px) {
+}
   width: 460px;
+  background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
-
-
+  flex-wrap: wrap;
   .image {
     height: 300px;
     display: flex;
