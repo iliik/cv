@@ -3,13 +3,23 @@
 
 .project {
   @media (max-width: 460px) {
-}
+    width: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
   width: 460px;
   background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
   .image {
+
     height: 300px;
     display: flex;
     justify-content: center;
