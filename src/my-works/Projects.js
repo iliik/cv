@@ -5,6 +5,7 @@ import Project from "./project/Project";
 import Title from "../common/components/title/Title";
 import todolistImage from "./../assets/image/PQjXipuxaEc.jpg"
 import socialImage from "./../assets/image/Social-Networking-App-in-React.png"
+import {Roll} from "react-awesome-reveal";
 
 function Projects() {
     const social = {
@@ -15,15 +16,20 @@ function Projects() {
     }
     return (
         <div className={style.projectsBlock}>
-            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title  text={'Projects'}/>
-                <div className={style.projects}>
-                    <Project style={social} title={"Social network"}
-                             discription={'sed do eiusmod tempor incidiunt ut labox'}/>
-                    <Project style={todolist} title={"Todo list"}
-                             discription={'Lorem ipsum dolor sit amet, consectetur'}/>
+            <Roll>
+                <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+
+                    <Title text={'Projects'}/>
+
+                    <div className={style.projects}>
+                        <Project style={social} title={"Social network"}
+                                 discription={'sed do eiusmod tempor incidiunt ut labox'}/>
+                        <Project style={todolist} title={"Todo list"}
+                                 discription={'Lorem ipsum dolor sit amet, consectetur'}/>
+                    </div>
+
                 </div>
-            </div>
+            </Roll>
         </div>
     );
 }
