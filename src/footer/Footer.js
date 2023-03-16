@@ -5,12 +5,14 @@ import telegramIcon from '../assets/icon/telegram.svg'
 import likednIcon from '../assets/icon/LinkedIn-Icon-Logo.wine.svg'
 import vkIcon from '../assets/icon/vk-circled.png'
 import instagramIcon from '../assets/icon/Capture001.png'
-
+import {Roll} from "react-awesome-reveal";
 
 function Footer() {
     return (
         <div className={style.footer}>
+
             <div className={style.container}>
+                <Roll>
                 <Title  text={'Ilya Kashalevich'}/>
                 <div className={style.socialIcons}>
                     <div className={style.socialIcon}><a href='https://t.me/koshelben'><img src={telegramIcon} alt=''/></a></div>
@@ -19,6 +21,7 @@ function Footer() {
                     <div className={style.socialIcon}><a href='https://www.instagram.com/ilya_koshelben/?igshid=YmMyMTA2M2Y%3D'><img src={instagramIcon} alt=''/></a></div>
                 </div>
                 <h2 className={style.date}> @2023 All rights reserved</h2>
+                </Roll>
             </div>
 
         </div>

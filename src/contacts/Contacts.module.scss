@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  z-index: 99;
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);

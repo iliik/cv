@@ -16,9 +16,9 @@ function Projects() {
     }
     return (
         <div className={style.projectsBlock}>
-            <Roll>
-                <div className={`${styleContainer.container} ${style.projectsContainer}`}>
 
+            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+                <Roll>
                     <Title text={'Projects'}/>
 
                     <div className={style.projects}>
@@ -27,9 +27,9 @@ function Projects() {
                         <Project style={todolist} title={"Todo list"}
                                  discription={'Lorem ipsum dolor sit amet, consectetur'}/>
                     </div>
+                </Roll>
+            </div>
 
-                </div>
-            </Roll>
         </div>
     );
 }
