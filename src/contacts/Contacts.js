@@ -19,7 +19,6 @@ function Contacts() {
                     </form>
                 </Roll>
                 <Button type='submit' text={'SEND MESSAGE'}/>
-
             </div>
 
         </div>

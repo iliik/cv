@@ -4,11 +4,12 @@
 .footer {
   background-color: $bgSecondColor;
   @include flex(row, center, stretch, nowrap);
+
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
     padding: 100px 0 20px;
-z-index: 99;
+    z-index: 99;
 
     .socialIcons {
       @include flex(row, space-between, center, nowrap);
@@ -33,20 +34,23 @@ z-index: 99;
           width: 50px;
           height: 50px;
         }
-        a{
+
+        a {
           width: 100%;
           height: 100%;
-          @include flex(row,center,center,nowrap);
-          img{
+          @include flex(row, center, center, nowrap);
+
+          img {
             width: 60%;
           }
         }
       }
     }
-    .date{
+
+    .date {
       margin-top: 40px;
-      @include text($TextFontFamily,14px,1.8);
-      font-weight:  300;
+      @include text($TextFontFamily, 14px, 1.8);
+      font-weight: 300;
       opacity: 0.6;
     }
   }
