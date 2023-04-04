@@ -9,7 +9,7 @@ function Skills() {
     return (
         <div className={style.skillsBlock}>
 
-                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <div id='skills' className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Roll>
                     <Title  text={'Skills'}/>
                     <div className={style.skills}>

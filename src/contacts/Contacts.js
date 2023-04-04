@@ -6,7 +6,7 @@ import {Roll} from "react-awesome-reveal";
 
 function Contacts() {
     return (
-        <div className={style.contactsBlock}>
+        <div id='contact' className={style.contactsBlock}>
 
             <div className={style.container}>
 

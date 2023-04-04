@@ -15,7 +15,7 @@ function Projects() {
         backgroundImage: `url(${todolistImage})`,
     }
     return (
-        <div className={style.projectsBlock}>
+        <div id='projects' className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Roll>
                     <Title text={'Projects'}/>

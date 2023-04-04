@@ -9,5 +9,12 @@
     color: $textColor;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    &:hover{
+      text-decoration: none;
+      color: $primaryColor;
+    }
+  }
+  .active{
+    color: $primaryColor;
   }
 }
