@@ -2,15 +2,13 @@
 @import "../../styles/sass/mixins";
 
 .title {
-  margin: 0  80px;
+  margin: 0 80px;
   @include text($TextFontFamily, 36px, 1.2);
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 5px;
-  position: center;
+  position: relative;
   text-align: center;
-
-
 
   & h3 {
     margin: 0;
