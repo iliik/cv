@@ -1,12 +1,16 @@
 @import ".././common/styles/sass/variabls";
+@import ".././common/styles/sass/mixins";
 
 .skillsBlock {
-  height: 100vh;
+  height: 100%;
   background-color: $bgSecondColor;
 
   .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    @media (max-width: 930px) {
+      @include flex(column, flex-start, flex-start, nowrap);
+    }
     z-index: 99;
     .skills {
       width: 100%;

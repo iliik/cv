@@ -12,7 +12,7 @@ function Contacts() {
 
                 <Title text={'Contacts'}/>
                 <Roll>
-                    <form className={style.form}>
+                    <form className={style.form} >
                         <input className={style.formArea} type='text' placeholder='Name'/>
                         <input className={style.formArea} type='text' placeholder='e-mail'/>
                         <textarea className={style.messageArea} placeholder='Message'/>

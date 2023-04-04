@@ -7,6 +7,7 @@
   font-weight: 700;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
+
   .particles {
     top: 0;
     position: relative;
@@ -30,7 +31,6 @@
 
       span {
         font-size: 16px;
-
         &:nth-child(2) {
           @include text($TitleFontFamily, 50px, 1.2);
           font-weight: 500;
@@ -56,13 +56,13 @@
             }
           }
         }
+        &:nth-child(3) {
+          @include text($TitleFontFamily, 28px, 1.8);
+          font-weight: 400;
+          margin: 0;
+        }
       }
 
-      h1 {
-        @include text($TitleFontFamily, 28px, 1.8);
-        font-weight: 400;
-        margin: 0;
-      }
 
       @media screen and (max-width: 1143px) {
         align-items: center;

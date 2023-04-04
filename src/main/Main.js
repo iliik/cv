@@ -1,7 +1,7 @@
 import style from './Main.module.scss';
 import React from "react";
 import {Roll} from "react-awesome-reveal";
-
+import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
 
@@ -13,7 +13,9 @@ function Main() {
                     <div className={style.greeting}>
                         <span>Hi There</span>
                         <span>I am  Ilya<span>Kashalevich</span></span>
-                        <h1> Frontend Developer.</h1>
+
+                         <ReactTypingEffect text="Frontend Developer."/>
+
                     </div>
                     <div className={style.photo}>
                         <div className={style.image}></div>
