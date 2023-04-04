@@ -1,20 +1,24 @@
 @import ".././common/styles/sass/variabls";
+@import ".././common/styles/sass/mixins";
 
 .nav {
-  width: 300px;
-  display: flex;
-  justify-content: space-evenly;
+  width: 350px;
   z-index: 99;
-  & a {
+  @include flex(row, space-around, stretch, nowrap);
+
+  a {
+    @include text($TitleFontFamily, 16px, 1.2);
+    font-weight: 400;
+    cursor: pointer;
     color: $textColor;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    &:hover{
+
+    &:hover {
       text-decoration: none;
       color: $primaryColor;
     }
   }
-  .active{
+
+  .active {
     color: $primaryColor;
   }
 }
