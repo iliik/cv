@@ -5,7 +5,7 @@ import Project from "./project/Project";
 import Title from "../common/components/title/Title";
 import todolistImage from "./../assets/image/PQjXipuxaEc.jpg"
 import socialImage from "./../assets/image/Social-Networking-App-in-React.png"
-import {Roll} from "react-awesome-reveal";
+import {Bounce} from "react-awesome-reveal";
 
 function Projects() {
     const social = {
@@ -17,9 +17,9 @@ function Projects() {
     return (
         <div id='projects' className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Roll>
+                <Bounce>
                     <Title text={'Projects'}/>
-                </Roll>
+                </Bounce>
                     <div className={style.projects}>
                         <Project style={social} title={"Social network"}
                                  discription={'sed do eiusmod tempor incidiunt ut labox'}/>

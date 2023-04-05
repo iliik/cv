@@ -12,9 +12,7 @@ function Footer() {
         <div className={style.footer}>
             <Slide>
                 <div className={style.container}>
-
                     <Title text={'Ilya Kashalevich'}/>
-
                     <div className={style.socialIcons}>
                         <div className={style.socialIcon}><a href='https://t.me/koshelben'><img src={telegramIcon}
                                                                                                 alt=''/></a></div>
@@ -29,10 +27,7 @@ function Footer() {
                     </div>
 
                     <h2 className={style.date}> @2023 All rights reserved</h2>
-
                 </div>
-
-
             </Slide>
 
 

@@ -3,13 +3,13 @@ import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
-import {Roll} from "react-awesome-reveal";
+import {Bounce} from "react-awesome-reveal";
 
 function Skills() {
     return (
         <div className={style.skillsBlock}>
                 <div id='skills' className={`${styleContainer.container} ${style.skillsContainer}`}>
-                    <Roll>
+                    <Bounce>
                     <Title  text={'Skills'}/>
                     <div className={style.skills}>
                         <Skill title={'JS'} description={'TEXT'}/>
@@ -22,7 +22,7 @@ function Skills() {
                         <Skill title={'Typescript'} description={'TEXT '}/>
                     </div>
 
-                    </Roll>
+                    </Bounce>
                 </div>
 
 
