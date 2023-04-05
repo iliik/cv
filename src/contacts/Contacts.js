@@ -10,19 +10,14 @@ function Contacts() {
             <div className={style.container}>
                 <Slide>
                     <Title text={'Contacts'}/>
-
-                    <form className={style.form} >
+                    <form className={style.form}>
                         <input className={style.formArea} type='text' placeholder='Name'/>
                         <input className={style.formArea} type='text' placeholder='e-mail'/>
                         <textarea className={style.messageArea} placeholder='Message'/>
                     </form>
-
-
-                    <Button type='submit' text={'SEND MESSAGE'}/>
                 </Slide>
-
+                <Button type='submit' text={'SEND MESSAGE'}/>
             </div>
-
         </div>
     );
 }
