@@ -8,17 +8,21 @@
   .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    @media (max-width: 930px) {
-      @include flex(column, flex-start, flex-start, nowrap);
-    }
+    //@media (max-width: 930px) {
+    //  @include flex(column, flex-start, flex-start, nowrap);
+    //}
     z-index: 99;
     .skills {
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      //justify-content: center;
       flex-wrap: wrap;
       margin-top: 30px;
       background-color: $bgColor;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+      }
     }
   }
 

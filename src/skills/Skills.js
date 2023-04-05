@@ -8,7 +8,6 @@ import {Roll} from "react-awesome-reveal";
 function Skills() {
     return (
         <div className={style.skillsBlock}>
-
                 <div id='skills' className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Roll>
                     <Title  text={'Skills'}/>
