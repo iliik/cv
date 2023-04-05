@@ -2,7 +2,6 @@
 @import ".././common/styles/sass/mixins";
 
 .nav {
-  //position: fixed;
   width: 350px;
   z-index: 99;
   @include flex(row, space-around, stretch, nowrap);
