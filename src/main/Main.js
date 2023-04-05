@@ -13,7 +13,7 @@ function Main() {
                 <Slide>
                     <div className={style.greeting}>
                         <span>Hi There</span>
-                        <span>I am  Ilya<span>Kashalevich</span></span>
+                        <span>I am  Ilya<span>Koshelevich</span></span>
                         <ReactTypingEffect text="Frontend Developer."/>
                     </div>
                 </Slide>

@@ -13,7 +13,7 @@ function Footer() {
 
             <div className={style.container}>
                 <Slide>
-                    <Title text={'Ilya Kashalevich'}/>
+                    <Title text={'Ilya Koshelevich'}/>
                 </Slide>
                 <Bounce>
                     <div className={style.socialIcons}>
