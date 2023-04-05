@@ -4,20 +4,23 @@
 
 .contactsBlock {
   background-color: $bgColor;
-  min-height: 60vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 99;
+
+
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
     z-index: 99;
+    margin-bottom: 10px;
     .form {
       @include flex(column, flex-start, stretch, nowrap);
-      width: 540px;
-      margin-top: 60px;
+      width: 500px;
+      margin-top: 20px;
       @media screen and (max-width: 680px) {
         width: 100%;
       }
@@ -31,7 +34,7 @@
         font-weight:  400;
         outline: none;
         color: $SolidColor;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1rem;
 
         &:-webkit-autofill {
           border: 1px solid $SolidColor;
@@ -69,7 +72,8 @@
         @extend .btn;
         align-self: center;
         background-color: transparent;
-        margin-top: 30px;
+        //margin-top: 70px;
+
       }
     }
   }
