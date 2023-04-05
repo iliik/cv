@@ -15,9 +15,11 @@ function Skills() {
                         <Skill title={'JS'} description={'TEXT'}/>
                         <Skill title={'Rect'} description={'TEXT '}/>
                         <Skill title={'Redux'} description={'TEXT '}/>
-                        <Skill title={'Redux'} description={'TEXT '}/>
-                        <Skill title={'Redux'} description={'TEXT '}/>
-                        <Skill title={'Redux'} description={'TEXT '}/>
+                        <Skill title={'Redux-toolkit'} description={'TEXT '}/>
+                        <Skill title={'Storybook'} description={'TEXT '}/>
+                        <Skill title={'Sass'} description={'TEXT '}/>
+                        <Skill title={'Css'} description={'TEXT '}/>
+                        <Skill title={'Typescript'} description={'TEXT '}/>
                     </div>
 
                     </Roll>

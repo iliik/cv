@@ -17,11 +17,13 @@
     z-index: 99;
   }
 
-  .skill, h3 {
+  .skill,h3 {
     color: $textColor;
   }
 
   .description {
+    word-break: break-all;
+    word-wrap: break-word;
     color: $textColor;
   }
 
