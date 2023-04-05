@@ -13,13 +13,14 @@
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 
     .button {
       display: flex;
       background-color: #03b7f8;
       flex-wrap: wrap;
       color: $textColor;
-      margin: 15px 0 0px 0;
+      margin: 15px 0 0 0;
 
     }
   }
