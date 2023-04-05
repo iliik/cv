@@ -7,8 +7,8 @@ import {Bounce, Slide} from "react-awesome-reveal";
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
-            <div id='skills' className={`${styleContainer.container} ${style.skillsContainer}`}>
+        <div id='skills' className={style.skillsBlock}>
+            <div  className={`${styleContainer.container} ${style.skillsContainer}`}>
 
                 <Bounce>
                     <Title text={'Skills'}/>

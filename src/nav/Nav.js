@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './Nav.module.scss';
-import 'animate.css';
 import {Link} from "react-scroll"
 import { Slide} from "react-awesome-reveal";
 
 function Nav() {
     return (
+
         <div className={style.nav}>
             <Slide>
                 <Link  activeClass={style.active} to='main' spy={true} smooth={true}

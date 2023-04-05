@@ -7,10 +7,7 @@ import {Slide} from "react-awesome-reveal";
 function Contacts() {
     return (
         <div id='contact' className={style.contactsBlock}>
-
             <div className={style.container}>
-
-
                 <Slide>
                     <Title text={'Contacts'}/>
 
