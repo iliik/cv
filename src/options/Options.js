@@ -30,7 +30,7 @@ function Options() {
                 {/*<JackInTheBox><Title text={'Consider remote work options'}/></JackInTheBox>*/}
                 <Bounce> <Title text={'Consider remote work options'}/></Bounce>
 
-                <Slide ><Title text={'Consider remote work options'}/></Slide>
+                {/*<Slide ><Title text={'Consider remote work options'}/></Slide>*/}
 
                 <Button text={'Hire me'}/>
             </div>
