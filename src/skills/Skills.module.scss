@@ -7,7 +7,7 @@
 
   .skillsContainer {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     z-index: 99;
 
     .skills {
@@ -16,7 +16,7 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      margin-top: 30px;
+      margin-top: 25px;
       background-color: $bgColor;
       @media screen and (max-width: 1129px) {
         justify-content: center;
