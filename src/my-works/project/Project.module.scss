@@ -11,13 +11,14 @@
     background-position: center;
     background-repeat: no-repeat;
     flex-wrap: wrap;
+
   }
   width: 460px;
-  background-color: $bgSecondColor;
+  background-color: $bgColor;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  margin-bottom: 15px;
   .image {
 
     height: 300px;
