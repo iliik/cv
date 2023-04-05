@@ -2,7 +2,7 @@
 
 .skill {
   width: 250px;
-  background-color: $primaryColor;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,10 +12,19 @@
   margin-bottom: 15px;
   z-index: 99;
   .icon {
-    height: 60px;
-    width: 60px;
-    background-color: $bgSecondColor;
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    //background-color: $bgSecondColor;
     z-index: 99;
+    //position: revert;
+    //transform: rotate(-45deg);
   }
 
   .skill,h3 {

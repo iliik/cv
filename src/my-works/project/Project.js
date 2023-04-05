@@ -8,7 +8,6 @@ function Project(props) {
         <div className={style.project}>
             <div className={style.image} style={props.style}>
                 <Button text={'Watch'}  todo='https://vk.com/id203437843' />
-                {/*<Button text={'Watch'} soc='https://t.me/koshelben' />*/}
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle} >{props.title}</h3>
