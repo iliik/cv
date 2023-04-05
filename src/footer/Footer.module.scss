@@ -3,12 +3,12 @@
 
 .footer {
   background-color: $bgSecondColor;
-  @include flex(row, center, stretch, nowrap);
+  @include flex(center, center, stretch, nowrap);
 
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
-    padding: 100px 0 20px;
+    padding: 5px 0 0 20px  ;
     z-index: 99;
 
     .socialIcons {
@@ -41,14 +41,14 @@
           @include flex(row, center, center, nowrap);
 
           img {
-            width: 60%;
+            width: 70%;
           }
         }
       }
     }
 
     .date {
-      margin-top: 40px;
+      margin-top: 20px;
       @include text($TextFontFamily, 14px, 1.8);
       font-weight: 300;
       opacity: 0.6;
