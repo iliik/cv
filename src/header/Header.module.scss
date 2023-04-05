@@ -2,15 +2,10 @@
 .header{
     width:100%;
     height: 90px;
-    display: flex;
-    justify-content: flex-end;
     position: fixed;
-
-    background-color: $bgSecondColor ;
+    background-color: $bgColor ;
     z-index: 100;
     opacity: 0.8;
-
-    height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;

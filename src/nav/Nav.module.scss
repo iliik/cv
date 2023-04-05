@@ -5,7 +5,6 @@
   width: 350px;
   z-index: 99;
   @include flex(row, space-around, stretch, nowrap);
-
   a {
     @include text($TitleFontFamily, 16px, 1.2);
     font-weight: 400;

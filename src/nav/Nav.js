@@ -9,13 +9,13 @@ function Nav() {
 
         <div className={style.nav}>
             <Link className="animate__heartBeat" activeClass={style.active} to='main' spy={true} smooth={true}
-                  offset={1} duration={500}>Main</Link>
+                  offset={0} duration={500}>Main</Link>
             <Link className="animate__heartBeat" activeClass={style.active} to='skills' spy={true} smooth={true}
-                  offset={1} duration={500}>Skills</Link>
+                  offset={2} duration={500}>Skills</Link>
             <Link className="animate__heartBeat" activeClass={style.active} to='projects' spy={true} smooth={true}
-                  offset={1} duration={500}>Project</Link>
+                  offset={2} duration={500}>Project</Link>
             <Link className="animate__heartBeat" activeClass={style.active} to='contact' spy={true} smooth={true}
-                  offset={1} duration={500}>Contact</Link>
+                  offset={-80} duration={500}>Contact</Link>
         </div>
     );
 }
