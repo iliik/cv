@@ -15,26 +15,12 @@ import {Slide} from "react-awesome-reveal";
 function Options() {
     return (
         <div className={style.optionsBlock}>
-
             <div className={`${styleContainer.container} ${style.optionsContainer}`}>
-                {/*<Fade>    <Title text={'Consider remote work options'}/></Fade>*/}
-
-
-
-
-
-
-                {/*<Rotate><Title text={'Consider remote work options'}/> </Rotate>*/}
-
-
-                {/*<JackInTheBox><Title text={'Consider remote work options'}/></JackInTheBox>*/}
-                <Bounce> <Title text={'Consider remote work options'}/></Bounce>
-
-                {/*<Slide ><Title text={'Consider remote work options'}/></Slide>*/}
-
-                <Button text={'Hire me'}/>
+                <Slide >
+                    <Title text={'Consider remote work options'}/>
+                </Slide>
+               <Button text={'Hire me'}/>
             </div>
-
         </div>
     );
 }
