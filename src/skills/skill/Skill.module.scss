@@ -12,15 +12,15 @@
   margin-bottom: 15px;
   z-index: 99;
   .icon {
-
-
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     flex-wrap: wrap;
     height: 100px;
-    width: 100px;
+    width: 100%;
+
+
 
     z-index: 99;
 
