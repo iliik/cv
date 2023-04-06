@@ -17,7 +17,6 @@ function Main() {
                         <ReactTypingEffect text="Frontend Developer."/>
                     </div>
                 </Slide>
-
                 <Bounce>
                     <Tilt>
                         <div className={style.photo}>
