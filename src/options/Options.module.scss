@@ -2,11 +2,11 @@
 @import ".././common/styles/sass/mixins";
 
 .optionsBlock {
-  background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 100px 0 ;
 
   .optionsContainer {
     display: flex;
