@@ -2,7 +2,7 @@
 @import "../../styles/sass/mixins";
 
 .title {
-  margin:   20px;
+  margin:   20px  0 ;
   @include text($TextFontFamily, 36px, 1.2);
   font-weight: 300;
   text-transform: capitalize;
