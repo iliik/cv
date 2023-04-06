@@ -19,6 +19,7 @@
   }
 
   .container {
+    align-items: center;
     @include container();
     @include flex(row, space-between, center, nowrap);
 
