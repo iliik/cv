@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.24d5c79d.css",
-    "main.js": "/cv/static/js/main.b0a20249.js",
+    "main.css": "/cv/static/css/main.37833b4d.css",
+    "main.js": "/cv/static/js/main.073c5fc8.js",
     "static/js/787.a71561b8.chunk.js": "/cv/static/js/787.a71561b8.chunk.js",
     "static/media/Capture001.png": "/cv/static/media/Capture001.1d4c8d840aaebd4df268.png",
     "static/media/photo_2023-03-14_15-25-55.jpg": "/cv/static/media/photo_2023-03-14_15-25-55.e4aa843bc9b8966654f9.jpg",
@@ -19,12 +19,12 @@
     "static/media/telegram.svg": "/cv/static/media/telegram.17ab82fd3441ab26b4043a7ec067a8b2.svg",
     "static/media/LinkedIn-Icon-Logo.wine.svg": "/cv/static/media/LinkedIn-Icon-Logo.wine.fd52e68ad59ac76b8bef39e880205ff4.svg",
     "index.html": "/cv/index.html",
-    "main.24d5c79d.css.map": "/cv/static/css/main.24d5c79d.css.map",
-    "main.b0a20249.js.map": "/cv/static/js/main.b0a20249.js.map",
+    "main.37833b4d.css.map": "/cv/static/css/main.37833b4d.css.map",
+    "main.073c5fc8.js.map": "/cv/static/js/main.073c5fc8.js.map",
     "787.a71561b8.chunk.js.map": "/cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24d5c79d.css",
-    "static/js/main.b0a20249.js"
+    "static/css/main.37833b4d.css",
+    "static/js/main.073c5fc8.js"
   ]
 }
