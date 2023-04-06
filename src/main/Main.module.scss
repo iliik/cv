@@ -2,6 +2,7 @@
 @import ".././common/styles/sass/mixins";
 
 .mainBlock {
+  height: 100vh;
   background-color: $bgColor;
   @include text($TitleFontFamily, 50px, 1.2);
   font-weight: 700;
@@ -19,7 +20,7 @@
 
   .container {
     @include container();
-    @include flex(row, space-between, flex-start, nowrap);
+    @include flex(row, space-between, center, nowrap);
 
     @media (max-width: 930px) {
       @include flex(column, flex-start, flex-start, nowrap);
