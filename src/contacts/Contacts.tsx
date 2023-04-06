@@ -4,6 +4,9 @@ import Title from "../common/components/title/Title";
 import {Button} from "../common/components/button/Button";
 import {Slide} from "react-awesome-reveal";
 
+
+
+
 function Contacts() {
     return (
         <div id='contact' className={style.contactsBlock}>
@@ -16,7 +19,7 @@ function Contacts() {
                         <textarea className={style.messageArea} placeholder='Message'/>
                     </form>
                 </Slide>
-                <Button type='submit' text={'SEND MESSAGE'}/>
+                <Button  text={'SEND MESSAGE'} todo={'ssss'}/>
             </div>
         </div>
     );
