@@ -9,8 +9,12 @@ import reduxToolkitIcon from "../../assets/iconProject/redux-toolkit-1400.webp";
 import htmlIcon from "../../assets/iconProject/html-svgrepo-com.svg";
 import gitIcon from "../../assets/iconProject/git.png";
 import materialUiIcon from "../../assets/iconProject/[removal.ai]_tmp-642daaa1032cb.png";
-import restApiIcon  from "../../assets/iconProject/rest-api-1.svg";
+import restApiIcon from "../../assets/iconProject/rest-api-1.svg";
 
+import telegramIcon from "../../assets/icon/telegram.svg";
+import linkedinIcon from "../../assets/icon/telegram.svg";
+import vkIcon from "../../assets/icon/vk-circled.png";
+import instagramIcon from "../../assets/icon/Capture001.png";
 
 
 const redux = {backgroundImage: `url(${reduxIcon})`}
@@ -27,8 +31,19 @@ const git = {backgroundImage: `url(${gitIcon})`}
 const materialUi = {backgroundImage: `url(${materialUiIcon})`}
 const restApi = {backgroundImage: `url(${restApiIcon})`}
 
+type SkillsSetType = {
+    //need to fix any
+    style: any
+    title: string
+}
 
-export const SkillsSet = [
+export type ContactsSetType = {
+    href: string
+    src: string
+    alt: string
+}
+
+export const SkillsSet: SkillsSetType[] = [
     {style: redux, title: 'Redux'},
     {style: react, title: 'React'},
     {style: storybook, title: 'Storybook'},
@@ -41,4 +56,14 @@ export const SkillsSet = [
     {style: materialUi, title: 'MaterialUi'},
     {style: restApi, title: 'RestApi'},
     {style: reduxToolkit, title: 'ReduxToolkit'},
+]
+
+export const ContactsSet: ContactsSetType[] = [
+    {href: "https://t.me/koshelben", src: telegramIcon, alt: "telegram"},
+    {
+        href: "https://www.linkedin.com/in/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D1%87-298976238/",
+        src: linkedinIcon, alt: "Linkedin"
+    },
+    {href: "https://vk.com/id203437843", src: vkIcon, alt: "vk"},
+    {href: "https://www.instagram.com/ilya_koshelben/?igshid=YmMyMTA2M2Y%3D", src: instagramIcon, alt: "instagram"},
 ]
