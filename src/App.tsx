@@ -5,7 +5,7 @@ import Main from "./main/Main";
 import Projects from "./my-works/Projects";
 import Options from "./options/Options";
 import Contacts from "./contacts/Contacts";
-import Footer from "./footer/Footer";
+import Footer from "./footer/FooterComponent";
 import {ParticleBackground} from "./main/Particles";
 import {Skills} from "./skills/Skills";
 
